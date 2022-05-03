@@ -1,0 +1,12 @@
+nombrePlan,fechaVen,fechaPag,precioFactura,totalGb,totalMinutos,totalMensajes
+A,20/1/2022,19/1/2022,12600,4,90,100
+A Plus,10/2/2022,15/02/2022,22600,10,180,200
+A Economic,13/1/2022,12/1/2022,9800.00,2,70,70
+A Economic,9/3/2022,9/3/2022,10000,2,70,70
+A,17/1/2022,18/1/2022,10600,4,90,100
+A Plus,2/2/2022,1/2/2022,22600,10,180,200
+B Plus,3/2/2022,5/2/2022,13000,7,70,80
+B Plus,19/2/2022,17/2/2022,12600,7,70,80
+B Economic,31/3/2022,31/3/2022,7500",3,60,60
+
+cambiar nombre plan por numeros, tratar de buscar una logica con ellos.

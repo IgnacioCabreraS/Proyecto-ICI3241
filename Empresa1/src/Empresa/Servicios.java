@@ -1,41 +1,67 @@
-
-package Empresa;
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package proyect;
 
 
 public class Servicios {
-    private String plan;
-    private int diaV;
-    private String mesV;
+    
+    private int tipoServicio;
+    private int totalGb;
+    private int totalMensajes;
+    private int totalMinutosLlamada;
+    private int precioServicio;
 
- 
-    public Servicios(String plan, int diaV, String mesV){
-        this.plan = plan;
-        this.diaV = diaV;
-        this.mesV = mesV;
-    }
-  
-    public void setPlan(String plan) {
-        this.plan = plan;
+    public Servicios(int tipoServicio, int totalGb, int totalMensajes, int totalMinutosLlamada, int precioServicio) {
+        this.tipoServicio = tipoServicio;
+        this.totalGb = totalGb;
+        this.totalMensajes = totalMensajes;
+        this.totalMinutosLlamada = totalMinutosLlamada;
+        this.precioServicio = precioServicio;
     }
     
-    public String getPlan() {
-        return plan;
-    }
-    
-    public void setDiaV(int diaV) {
-        this.diaV = diaV;
-    }
-    
-    public int getDiaV() {
-        return diaV;
-    }
-    public void getMesV(String mesV) {
-        this.mesV = mesV;
-    }
-    
-    public String getMesV() {
-        return mesV;
+    public Servicios(){}
+
+    public int getTipoServicio() {
+        return tipoServicio;
     }
 
+    public void setTipoServicio(int tipoServicio) {
+        this.tipoServicio = tipoServicio;
+    }
+
+    public int getTotalGb() {
+        return totalGb;
+    }
+
+    public void setTotalGb(int totalGb) {
+        this.totalGb = totalGb;
+    }
+
+    public int getTotalMensajes() {
+        return totalMensajes;
+    }
+
+    public void setTotalMensajes(int totalMensajes) {
+        this.totalMensajes = totalMensajes;
+    }
+
+    public int getTotalMinutosLlamada() {
+        return totalMinutosLlamada;
+    }
+
+    public void setTotalMinutosLlamada(int totalMinutosLlamada) {
+        this.totalMinutosLlamada = totalMinutosLlamada;
+    }
+
+    public int getPrecioServicio() {
+        return precioServicio;
+    }
+
+    public void setPrecioServicio(int precioServicio) {
+        this.precioServicio = precioServicio;
+    }
     
 }
