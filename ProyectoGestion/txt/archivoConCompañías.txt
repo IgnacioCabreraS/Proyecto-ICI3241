@@ -1,0 +1,9 @@
+Lista de compañías: 
+
+(1) Nombre de compañía: Entel
+
+Lista de equipos telefonicos: 
+
+| (1) Modelo del celular: x| Marca del celular: iphone| Capacidad de bateria: 2300| Numero del producto: 123| Precio: $500000| Compañía del movil: Entel |
+| (2) Modelo del celular: 8| Marca del celular: iphone| Capacidad de bateria: 2000| Numero del producto: 246| Precio: $300000| Compañía del movil: Entel |
+| (3) Modelo del celular: 7| Marca del celular: iphone| Capacidad de bateria: 2100| Numero del producto: 93| Precio: $230000| Compañía del movil: Entel |
